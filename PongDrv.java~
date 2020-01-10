@@ -1,0 +1,39 @@
+import java.awt.BorderLayout;
+import java.awt.FlowLayout;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JButton;
+
+public class PongDrv{
+
+    public static void main(String[] args) {
+
+        JFrame frame = new JFrame("Pong");
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setLayout(new BorderLayout());
+
+        Pong pong = new Pong();
+        frame.add(pong, BorderLayout.CENTER);
+        
+        JPanel bottomPanel = new JPanel();
+        bottomPanel.setLayout(new FlowLayout());
+        JButton fasterButton = new JButton("Faster");
+        bottomPanel.add(fasterButton);
+        JButton slowerButton = new JButton("Slower");
+        bottomPanel.add(slowerButton);
+        frame.add(bottomPanel, BorderLayout.SOUTH);
+                
+        Controller controller = new Controller(pong, fasterButton, slowerButton);
+
+        // Add our action listener to the buttons
+        fasterButton.addActionListener(controller);
+        slowerButton.addActionListener(controller);
+
+        frame.setSize(500, 500);
+        frame.setVisible(true);
+        
+        // Make sure the JPanel has the focus
+        pong.requestFocusInWindow();
+        
+    }
+}

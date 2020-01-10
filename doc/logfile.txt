@@ -1,0 +1,32 @@
+Class documentation
+<---- javadoc command: ---->
+D:\Program Files (x86)\BlueJ\jdk\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-package
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+1.8
+-classpath
+D:\Program Files (x86)\BlueJ\lib\bluejcore.jar;D:\Program Files (x86)\BlueJ\lib\junit-4.8.2.jar;D:\Program Files (x86)\BlueJ\lib\userlib\pi4j-core.jar;D:\Program Files (x86)\BlueJ\lib\userlib\pi4j-device.jar;D:\Program Files (x86)\BlueJ\lib\userlib\pi4j-gpio-extension.jar;D:\Program Files (x86)\BlueJ\lib\userlib\pi4j-service.jar;D:\Dropbox\BlueJ_programs\AndrewPong
+-d
+D:\Dropbox\BlueJ_programs\AndrewPong\doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-docletpath
+D:\Program Files (x86)\BlueJ\lib\bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+D:\Dropbox\BlueJ_programs\AndrewPong\Pong.java
+<---- end of javadoc command ---->
+Loading source file D:\Dropbox\BlueJ_programs\AndrewPong\Pong.java...
+D:\Dropbox\BlueJ_programs\AndrewPong\Pong.java:35: error: invalid method declaration; return type required
+    public StevesPanel(){
+           ^
+1 error

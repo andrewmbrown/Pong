@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Pong()
+comment0.text=\r\n\r\n\ Constructor\ for\ Pong\r\n
+comment1.params=e
+comment1.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment1.text=\r\n\ \r\n\ Define\ the\ method\ that\ gets\ called\ when\ the\ timer\ goes\ off\r\n
+comment2.params=
+comment2.target=void\ doit()
+comment2.text=\r\n\ \r\n\ This\ method\ updates\ the\ locations\ of\ graphical\ items\ in\ the\ Pong\ panel\r\n
+comment3.params=g
+comment3.target=void\ paintComponent(java.awt.Graphics)
+comment4.params=
+comment4.target=void\ Faster()
+comment5.params=
+comment5.target=void\ Slower()
+comment6.params=e
+comment6.target=void\ keyTyped(java.awt.event.KeyEvent)
+comment7.params=e
+comment7.target=void\ keyPressed(java.awt.event.KeyEvent)
+comment8.params=e
+comment8.target=void\ keyReleased(java.awt.event.KeyEvent)
+numComments=9
